@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --secondary-color: #534C64;
+    --primary-color: #0B0223;
+}
+
+
+/* primary-style  */
+
+.primary-button {
+    color: ;
+    font-size: ;
+    padding: 8px 16px;
+    background-color: ;
+}
+
+.primay-background-color {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.secondary-BG-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* navegation bar */
+
+nav {
+    padding: 20px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-titel {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.menu-container ul li {
+    color: #3C354F;
+    font-size: 1rem;
+    list-style: none;
+    font-weight: 500;
+}
+
+.menu-button-link {
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.menu-button-link:hover {
+    background: rgba(11, 2, 35, 0.30);
+    cursor: pointer;
+}
+
+.flow-us {
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.youtube-color {
+    color: red;
+    font-size: 1rem;
+}
+
+.tiktok-color {
+    font-size: 1rem;
+    background: linear-gradient(180deg, #08FFF9 0%, #F00044 100%, #000000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
