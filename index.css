@@ -330,6 +330,15 @@ nav {
     width: 130px;
 }
 
+.play-anything {
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.play-anything-deatils {
+    text-align: left;
+}
+
 @media screen and (max-width:576px) {
     /* navbar responsive */
     nav {
@@ -407,5 +416,26 @@ nav {
     }
     .single-card p {
         font-size: 1rem;
+    }
+    /* play instant style  */
+    .play-instant {
+        flex-direction: column;
+        padding: 0;
+        gap: 50px;
+    }
+    .play-instant-details {
+        width: 100%;
+        text-align: center;
+    }
+    .play-instant-image {
+        width: 100%;
+        text-align: center;
+    }
+    .play-instant-image .play-instant-mini-image-1 {
+        width: 60%;
+        height: 300px;
+    }
+    .play-instant-mini-image {
+        left: 30px;
     }
 }
