@@ -241,6 +241,59 @@ nav {
     margin-bottom: 10px;
 }
 
+
+/* card section  */
+
+
+/* .image-card{
+    background-image: url("./images/play-button\ 1.svg");
+} */
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px;
+    margin-top: 20px;
+}
+
+.single-card {
+    width: 200px;
+}
+
+.image-card {
+    width: 100%;
+    position: relative;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.play-button {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    opacity: 0;
+}
+
+.play-button:hover {
+    opacity: 1;
+}
+
+.card-img:hover {
+    background-: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514));
+    background-blend-mode: overlay;
+}
+
+.card-img:hover {
+    opacity: .9;
+}
+
+.single-card p {
+    font-size: .8rem;
+}
+
 @media screen and (max-width:576px) {
     /* navbar responsive */
     nav {
@@ -306,7 +359,16 @@ nav {
     .online-titel {
         font-size: 1.6rem;
     }
-    .online-text-container {
-        /* margin-top: 60px; */
+    /* card section responsive  */
+    .card-container {
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 50px;
+        gap: 10px;
+    }
+    .gamer-card {
+        width: 80%;
+        margin: 0 auto;
     }
 }
