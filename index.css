@@ -244,11 +244,6 @@ nav {
 
 /* card section  */
 
-
-/* .image-card{
-    background-image: url("./images/play-button\ 1.svg");
-} */
-
 .card-container {
     display: flex;
     justify-content: space-between;
@@ -293,6 +288,9 @@ nav {
 .single-card p {
     font-size: .8rem;
 }
+
+
+/* card section end  */
 
 @media screen and (max-width:576px) {
     /* navbar responsive */
@@ -363,12 +361,11 @@ nav {
     .card-container {
         flex-direction: column;
         padding: 0;
-        margin: 0 auto;
         margin-top: 50px;
         gap: 10px;
     }
-    .gamer-card {
-        width: 80%;
-        margin: 0 auto;
+    .single-card {
+        width: 300px;
     }
+    /* card section responsive */
 }
