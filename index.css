@@ -14,10 +14,15 @@
 /* primary-style  */
 
 .primary-button {
-    color: ;
-    font-size: ;
-    padding: 8px 16px;
-    background-color: ;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    cursor: pointer;
 }
 
 .primay-background-color {
@@ -113,6 +118,72 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.banner-container {
+    /* padding: 10px 240px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text {
+    width: 50%;
+    height: 500px;
+    background-image: url("./images/Group\ 14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    /* margin-left: 50px; */
+}
+
+.banner-titel {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.play-button {
+    margin-left: 5px;
+    color: red;
+}
+
+.fa-download {
+    color: rgb(4, 0, 255);
+}
+
+.banner-titel-bg {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.banner-deatils {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.banner-button {
+    margin-top: 30px;
+}
+
+.banner-button-2 {
+    background-color: #4EC5F7;
+    margin-left: 20px;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image img {
+    width: 70%;
 }
 
 @media screen and (max-width:576px) {
