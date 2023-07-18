@@ -270,4 +270,22 @@ nav {
         align-items: center;
         text-align: center;
     }
+    /* gamer secction responsive */
+    .gamer-container {
+        flex-direction: column;
+        padding: 0;
+        gap: 50px;
+    }
+    .gamer-image {
+        width: 100%;
+    }
+    .gamer-info {
+        width: 70%;
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .gamer-titel {
+        font-size: 2.1rem;
+    }
 }
