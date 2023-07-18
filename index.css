@@ -340,11 +340,10 @@ nav {
     text-align: left;
 }
 
-.careers {}
-
 .Careers-container {
     color: #fff;
     /* padding: 0 240px; */
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -360,7 +359,7 @@ nav {
 
 .careers-information {
     width: 80%;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 .Careers-info {
@@ -400,6 +399,40 @@ nav {
 .careers-image img {
     width: 100%;
     height: 100%;
+}
+
+.game-container {
+    padding: 0 240px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0;
+}
+
+.another-game {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.another-game h5 {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.another-game:hover {
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 5px;
+}
+
+.another-game img {
+    width: 20%;
 }
 
 @media screen and (max-width:576px) {
@@ -510,9 +543,18 @@ nav {
         margin: 0;
     }
     .careers-information {
+        width: 100%;
         margin: 20px 0 0;
+        padding: 10px;
     }
     .careers-image {
         width: 100%;
+    }
+    .game-container {
+        padding: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .another-game h5 {
+        font-size: .5rem;
     }
 }
