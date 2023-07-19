@@ -476,6 +476,15 @@ nav {
     margin: 0 auto;
 }
 
+.footer-link i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.footer-game-name p {
+    cursor: pointer;
+}
+
 @media screen and (max-width:576px) {
     /* navbar responsive */
     nav {
